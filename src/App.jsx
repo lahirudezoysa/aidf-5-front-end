@@ -1,14 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import Manupa from "./Manupa";
-import Button from "./Button";
-import User from "./Manupa";
+import { Button } from "@/components/ui/button";
+import { Switch } from "@/components/ui/switch";
 
 function App() {
   return (
     <div className="border-2 border-black">
-      <Button />
+      <Button>Click Me</Button>
+      <Switch></Switch>
     </div>
   );
 }
