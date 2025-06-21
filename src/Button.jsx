@@ -5,14 +5,7 @@ function Button() {
 
   return (
     <button
-      style={{
-        backgroundColor: "red",
-        color: "white",
-        padding: "10px 20px",
-        borderRadius: "5px",
-        border: "none",
-        cursor: "pointer",
-      }}
+      className="bg-red-500 text-white py-[10px] px-[20px] rounded-md cursor-pointer"
       onClick={handleClick}
     >
       Click me

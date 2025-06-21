@@ -5,13 +5,10 @@ import Manupa from "./Manupa";
 import Button from "./Button";
 import User from "./Manupa";
 
-
 function App() {
   return (
     <div className="border-2 border-black">
-      <User name="Manupa" />
-      <User name="Manupa" />
-      <User name="Sawindu" />
+      <Button />
     </div>
   );
 }
